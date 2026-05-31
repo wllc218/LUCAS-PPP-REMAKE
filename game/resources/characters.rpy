@@ -1,3 +1,7 @@
+define config.window_show_transition = Dissolve(0.2)
+define config.window_hide_transition = Dissolve(0.2)
+            
+
 define personagem_base = dict(
     ctc="ctc",
     ctc_pause="ctc",

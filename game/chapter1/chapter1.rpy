@@ -25,6 +25,12 @@ label start:
     # These display lines of dialogue.
 
     l "You've created a new Ren'Py game."
+    show nico at left
+    n "filho da puta"
+    l "vou te matar"
+    n "vai nao"
+    l "This is where your story starts. You can edit this text, and add new"
+    show explosao at truecenter
     l "[procura_itens['butij']['encontrado']]"
     scene procure
     call screen procura
